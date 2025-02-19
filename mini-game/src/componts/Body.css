@@ -1,0 +1,71 @@
+
+.container-body {
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo em uma coluna */
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+  }
+  
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px; /* Adiciona um espaço entre o título e o botão */
+  }
+  .container-emoji {
+    background-color: aqua;
+    border-radius: 20px;
+    height: 180px;
+    width: 27%; 
+    max-width: 100vh; 
+    display: flex;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    /* margin-top: 10px; */
+    padding: 20px;
+  }
+
+  .emoji{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .botão {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinha os botões no meio */
+    align-items: center;
+  }
+  
+  .botão, .limpar {
+    font-size: 17px;
+    padding: 12px 21px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .botão {
+    background-color: #c251ff;
+    color: white;
+  }
+  
+  .botão:hover {
+    background-color: #9a3eb0;
+  }
+  
+  .limpar {
+    background-color: #ff4b4b;
+  }
+  
+  .limpar:hover {
+    background-color: #c92a2a;
+    transform: scale(1.05);
+  }
+  
